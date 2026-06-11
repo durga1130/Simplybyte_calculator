@@ -1,0 +1,6 @@
+services:
+  calculator:
+    build: .
+    container_name: website
+    ports:
+      - "8082:5000"
